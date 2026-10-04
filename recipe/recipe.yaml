@@ -74,14 +74,11 @@ requirements:
 
 tests:
   - script:
-      - fastpotify --help
       - spotifast --help
   - package_contents:
       bin:
-        - fastpotify
         - spotifast
       files:
-        - Menu/fastpotify.json
         - Menu/spotifast.*
       strict: true
 
